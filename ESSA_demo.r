@@ -1,3 +1,4 @@
+# print the current director
 getwd()
 
 # set working directory
