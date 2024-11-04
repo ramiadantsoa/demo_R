@@ -87,6 +87,7 @@ kruskal.test(SOC ~ Prof, data = dat_agro)
 install.packages("FSA")
 library(FSA)
 
+# comment on dunn test
 dunnTest(SOC ~ Prof,
               data = dat_agro,
               method = "bh")
